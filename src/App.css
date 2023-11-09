@@ -1,3 +1,7 @@
+.container {
+  border: 2px solid;
+}
+
 .Title {
   text-align: center;
   margin: 50px;
@@ -5,5 +9,14 @@
 
 .Footer {
   text-align: end;
-  margin: 50px;
+  margin: 50 50 5 50px;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: pink;
 }
