@@ -14,7 +14,7 @@ function App() {
           href="https://natasjasluis.netlify.app/"
           target="_blank"
           rel="noreferrer"
-          class="link"
+          className="link"
         >
           Natasja Sluis
         </a>{" "}
@@ -22,9 +22,9 @@ function App() {
           href="https://github.com/Twesha33/react-dictionary-project"
           target="_blank"
           rel="noreferrer"
-          class="link"
+          className="link"
         >
-          <i class="fa-brands fa-github"></i>
+          <i className="fa-brands fa-github"></i>
         </a>
       </footer>
     </div>
