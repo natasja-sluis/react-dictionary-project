@@ -1,5 +1,10 @@
 .container {
+  font-family: "Cormorant", serif;
+}
+
+.app {
   border: 2px solid;
+  margin-top: 50px;
 }
 
 .Title {
