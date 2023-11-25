@@ -14,7 +14,11 @@ export default function Dictionary(props) {
   }
 
   function handleResponse(response) {
-    setResults(response.data);
+    const data = response.data;
+    if (data.status === "not_found") {
+      return;
+    }
+    setResults(data);
   }
 
   function search() {
