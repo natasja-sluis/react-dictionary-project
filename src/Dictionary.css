@@ -2,10 +2,23 @@
   text-align: center;
 }
 
-.search {
-  margin: 5px 5px 25px 5px;
+.Dictionary input {
+  width: 50%;
+  text-align: center;
+  margin: 25px 5px 25px 5px;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
 }
 
-.search:hover {
-  transform: scale(1.1);
+.Dictionary input:focus-visible {
+  outline: 1px solid pink;
+}
+
+.Dictionary section {
+  background-color: palevioletred;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 5px rgb(0, 0, 0, 0.1);
 }
