@@ -7,7 +7,7 @@ function App() {
     <div className="container">
       <div className="app">
         <div className="Title">What word do you want to look up?</div>
-        <Dictionary defaultKeyword="computer" />
+        <Dictionary defaultKeyword="sunset" />
       </div>
       <Footer />
     </div>
