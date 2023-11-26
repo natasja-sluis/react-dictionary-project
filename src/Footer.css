@@ -1,6 +1,7 @@
 .Footer {
   text-align: end;
-  margin: 50 50 5 50px;
+  margin: 5px;
+  font-size: 1.1em;
 }
 
 .link {
@@ -9,5 +10,6 @@
 }
 
 .link:hover {
-  color: pink;
+  color: #774e5bff;
+  text-decoration: underline;
 }
