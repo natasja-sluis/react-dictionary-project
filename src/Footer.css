@@ -13,3 +13,9 @@
   color: #774e5bff;
   text-decoration: underline;
 }
+
+@media (max-width: 576px) {
+  .Footer {
+    font-size: 1em;
+  }
+}

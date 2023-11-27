@@ -1,4 +1,19 @@
 .word {
   text-transform: uppercase;
   text-decoration: underline;
+  font-size: 2em;
+}
+
+.phonetic {
+  font-size: 1.8em;
+}
+
+@media (max-width: 576px) {
+  .word {
+    font-size: 1.5em;
+  }
+
+  .phonetic {
+    font-size: 1.3em;
+  }
 }

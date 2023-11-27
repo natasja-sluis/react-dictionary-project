@@ -22,3 +22,9 @@
   border-radius: 5px;
   box-shadow: 0px 5px 5px rgb(0, 0, 0, 0.1);
 }
+
+@media (max-width: 576px) {
+  .Dictionary section {
+    font-size: 1em;
+  }
+}

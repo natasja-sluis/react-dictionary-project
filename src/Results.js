@@ -8,8 +8,8 @@ export default function Results(props) {
     return (
       <div>
         <section>
-          <h2 className="word">{props.results.word}</h2>
-          <h3 className="phonetic">{props.results.phonetic}</h3>
+          <div className="word">{props.results.word}</div>
+          <div className="phonetic">{props.results.phonetic}</div>
         </section>
         {props.results.meanings.map(function (meanings, index) {
           return (

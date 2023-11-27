@@ -9,7 +9,7 @@ export default function Photos(props) {
           {props.photos.map(function (photos, index) {
             if (index < 6) {
               return (
-                <div className="col-4" key={index}>
+                <div className="col-sm-4" key={index}>
                   <a
                     href={photos.src.original}
                     target="_blank"

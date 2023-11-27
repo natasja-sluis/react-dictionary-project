@@ -20,3 +20,9 @@ shadow-color: rgba(119, 78, 91, 0.2); */
   font-size: 1.5em;
   margin: 20px;
 }
+
+@media (max-width: 576px) {
+  .Title {
+    font-size: 1em;
+  }
+}
